@@ -33,7 +33,7 @@ struct node* head;
 struct data data_array[100];
 int i = 0; //i holds position in data_array
 
-
+//===================================================================================
 //main
 int main(int argc, const char * argv[]) {
     //these will be the files passed in as arguments
@@ -88,7 +88,7 @@ int main(int argc, const char * argv[]) {
     fclose(outfile);
 }
 
-
+//===================================================================================
 //writes the program listing with line numbers to the output file
 void programListing(FILE* infile, FILE* outfile){
     char read_line[80]; //this holds the each line of the file
