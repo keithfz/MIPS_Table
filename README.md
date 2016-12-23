@@ -1,2 +1,2 @@
 # MIPS_Table
-Prints a cross reference table
+Analyzes a MIPS program and prints a cross reference table, a listing, or both
